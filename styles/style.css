@@ -12,7 +12,7 @@ body {
 }
 
 /* Header */
-.github-header {
+.header {
     background: #010409;
     padding-block: 13px;
     color: white;
@@ -28,7 +28,6 @@ body {
     margin: 0;
 }
 
-/* Левая часть: Dashboard */
 .header-left {
     display: flex;
     align-items: center;
@@ -37,7 +36,7 @@ body {
 
 .burger-menu {
     background: none;
-    border: 1px solid #9198a1;
+    border: 1px solid #3d444d;
     border-radius: 0.5rem;
     color: #9198a1;
     cursor: pointer;
@@ -76,9 +75,9 @@ body {
     display: flex;
     align-items: center;
     background: #010409;
-    border: 1px solid #9198a1;
+    border: 1px solid #3d444d;
     border-radius: 0.3rem;
-    padding: 5px 12px;
+    padding: 5px 6px;
     margin-right: 190px;
     width: 260px;
 }
@@ -117,7 +116,7 @@ body {
     fill: white;
 }
 
-/* Левое выпадающее меню */
+/* Выпадающее меню */
 .burger-dropdown {
     display: none;
     opacity: 1;
@@ -166,6 +165,16 @@ body {
     border-radius: 0.4rem;
 }
 
+.dropdown-item-border-top {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #3d444d;
+}
+
+.dropdown-item-border-bottom {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #3d444d;
+}
 /* Main */
 
 .sidebar {
