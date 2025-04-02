@@ -93,7 +93,7 @@ body {
 .search-input {
     background: transparent;
     border: none;
-    color: white;
+    color: #24292f;
     font-size: 14px;
     outline: none;
     flex: 1;
@@ -121,6 +121,30 @@ body {
 }
 
 /* Выпадающее меню */
+.dropdown-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.dropdown-close-button {
+    background: none;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    color: #57606a;
+    border-radius: 6px;
+}
+
+.dropdown-close-button:hover {
+    background-color: #f6f8fa;
+    color: #24292f;
+}
+
+.dropdown-close-button svg {
+    fill: currentColor;
+}
+
 .burger-dropdown {
     display: none;
     opacity: 1;
